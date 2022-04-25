@@ -358,9 +358,64 @@ footer {
     align-items: center;
     justify-content: space-evenly;
 }
-
-
-
-
+    
 
 /* MEDIA QUERIES */
+@media screen and (max-width: 450px) {
+    .nabvar {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .logo {
+        width: 15%;
+    } 
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .img__presentation {
+        display: flex;
+        flex-wrap: wrap;
+        width: 250px;
+        flex-grow: 1; 
+        align-items: center;
+    }
+    .h3 {
+        display: flex;
+        flex-grow: 1;
+        text-align: center; 
+    }
+    .child-page-listing {
+        display: flex;
+        flex-grow: 1;
+        text-align: center;
+    }
+    .grid-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 300px;
+    }
+    .flex-row {
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        align-items: center; }
+    }
+    .container__especialidades {
+        display: flex;
+       flex-wrap: wrap;
+       flex-grow: 1;
+    }
+    .blog {
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+    }
+    input {
+        width: 350px; 
+    }
+    textarea {
+        width: 350px; 
+    }
+    
