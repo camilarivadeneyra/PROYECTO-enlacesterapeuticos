@@ -1,0 +1,38 @@
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Poiret+One&display=swap');
+
+
+/* RESETS */
+*,
+*::after
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* GLOBALS */
+header {
+    background-image: linear-gradient(to bottom, #e6b7e7, #e7caf1, #ecddf8, #ffffff);
+    font-family: var(--font-primary);
+    font-size: 18px;
+    align-content: space-between;
+    padding: 15px;
+}
+
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}

@@ -383,11 +383,13 @@ footer {
     }
     .h3 {
         display: flex;
+        flex-wrap: wrap;
         flex-grow: 1;
         text-align: center; 
     }
     .child-page-listing {
         display: flex;
+        flex-wrap: wrap;
         flex-grow: 1;
         text-align: center;
     }
