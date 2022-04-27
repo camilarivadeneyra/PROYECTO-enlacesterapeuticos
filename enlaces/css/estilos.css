@@ -420,4 +420,13 @@ footer {
     textarea {
         width: 350px; 
     }
-    
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        font-size: 12px;
+    }
+    .menu__item {
+        display: flex;
+        flex-direction: column;
+    }  
