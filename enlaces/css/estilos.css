@@ -29,6 +29,10 @@ header {
     padding: 15px;
 }
 
+.hamburger-button {
+    display: none;
+}
+
 body {
     display: grid;
     grid-template-rows: auto 1fr auto;
@@ -370,6 +374,11 @@ footer {
         width: 15%;
     } 
     .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .main-resp{
         display: flex;
         flex-wrap: wrap;
         align-items: center;
